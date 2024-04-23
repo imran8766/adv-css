@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+           height: 225px;
+            width: 300px; 
+            border: 7px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+        .photo-frame .photo img{
+            width: 100%;
+            
+        }
+        .photo-detail{
+            position: absolute;
+            height: 400px;
+            width: 300px;
+            top: 0;
+            display: none;
+
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color:rgba(208, 44, 44, 0.703);
+            color: white;
+            height: 225px;
+        }
+        .photo-frame:hover .photo-detail h2{
+            background-color: black;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(2);
+            transition: transform 2s;
+        }
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+    </style>
+</head>
+<body>
+   <center> <h1>My Photo Book</h1></center>
+    <section class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="1.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="2.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Have Tea</h2></center>
+                        <p>In this picture you can see  i am having a cup of tea and behind there is a big mountain.This mountain locally called boro pathor. </p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="4.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Sangu River</h2></center>
+                        <p>Sangu river is a mountain based river.It is situated in thanchi and alokadam union.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="5.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="6.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="7.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="8.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="9.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="10.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="1.jpg" alt=""></div>
+                    <div class="photo-detail">
+                        <center><h2>Flower</h2></center>
+                        <p>This is a mountain flower.I capture this from Tindu, Bandarban.This is a real flower.If you want to see this u have to go to Tindu.</p>
+                    </div>
+            </div>
+
+</section>
+
+</body>
+</html>
